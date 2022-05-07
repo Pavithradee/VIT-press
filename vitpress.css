@@ -1,0 +1,298 @@
+body{
+    padding: 0px;
+    
+    border-top: 0px;
+    width: 100vw;
+    height: 300vh;
+
+}
+#mainmenu{
+    padding-left: 50px;
+    margin-left: 100px;
+}
+.firstrow{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border: 1px solid rgb(229, 226, 226);
+border-top: 0px;
+border-left: 0px;
+
+
+
+}
+.firstcontent
+{    display: flex;
+    flex-direction: row;
+    justify-content: row;
+    gap: 10px;
+    width: 50%;
+    cursor: pointer;
+    padding-left: 60px;
+    padding-top: 20px;
+ 
+}
+.img-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content:row;
+    gap: 0px;
+   width:50%;
+
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 50%;
+    gap:30px;
+}
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+   padding: 0px 25px;
+}
+.vitcontent{
+display: flex;
+justify-content: row-reverse;
+width: 500px;
+margin-left: 0px;
+}
+.col-lg-6{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    gap: 10px;
+}
+
+.textbox{
+    display: flex;
+    justify-content: row;
+   padding: 0px;
+
+}
+.textbox1{
+    display: flex;
+    justify-content: row;
+    padding: 0px;
+   
+}
+.btn-primary{
+    background-color: blue;
+    color: white;
+}
+.btn-secondary{
+    background-color: blue;
+    color: white;
+}
+.searchbox{
+    padding-top: 20px;
+}
+
+.textbox3{
+    padding-right: 500px;
+    border-color: 1px solid rgb(202, 111, 126);
+   
+}
+button{
+    width: 100px;
+   background-color: darkred;
+    color: aliceblue;
+    padding: 0px;
+}
+.thirdrow{
+  padding: 20px;
+    }
+.col-sm-1{
+    display: flex;
+    justify-content: row;
+    flex-direction: row;
+    gap: 30px;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.middlerow-sapce{
+    padding-bottom:5px;
+    background-color:whitesmoke;
+}
+.fourrow{
+  padding-left: 30px;
+  height: 150vh;
+  margin-top: 20px;
+  padding-top: 30px;
+}  
+.bookcontent{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.book{
+    width: 250px;
+ padding: 25px 15px;
+
+}
+.bookpadcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #4583C0;
+    width:65vw;
+    padding-right: 0px;
+}
+.title{
+    width: 300%;
+}
+.heading-journal{
+    padding-top: 20px;
+}
+.journal-space{
+    padding-top: 30px;
+}
+.box{
+    border: 0.2px solid #e2d9d9;
+    border-radius: 5px;
+    width: 60vw;
+}
+.box1{
+margin-top: 15px;
+    border: 0.2px solid #e2d9d9;
+    border-radius: 5px;
+    width: 60vw;
+    
+}
+.journal-box{
+    
+}
+.submit-icon{
+    padding-top: 100px;
+    width: 400px;
+}
+.join-edit-icon{
+   padding-top: 20px; 
+   width: 400px;}
+
+p{
+    font-size: 20px;
+}
+.bulletpara{
+  
+    font-size:20px;
+}
+
+.sidebutton{
+
+color: whitesmoke;
+padding-left: 0px;
+margin-top: 20px;
+
+
+}
+.btn-primary{
+    width: 10vw;
+    padding: 15px;
+    background-color: darkblue;
+    font-size: 20px;
+ 
+}
+.btn-danger{
+    background-color: #B72E18;
+    width: 10vw;
+    padding: 15px;
+    font-size: 20px;
+    width: 10vw;
+    margin-left: 20px;
+    
+}
+
+.sidebutton1{
+color: whitesmoke;
+padding-left: 0px; 
+margin-top: 20px;
+}
+.btn-warning{
+    color: whitesmoke;
+    width: 10vw;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: #E78C24;
+}
+.btn-success{
+width: 10vw;
+padding: 15px;
+font-size: 20px;
+width: 10vw;
+margin-left: 20px;
+
+}
+.table-cont{
+    width: 20vw;
+margin-top: 30px;
+padding-left: 10px;
+background-color: #F8F8F8;
+}
+
+.table{
+width: 20vw;
+background-color: #F8F8F8;
+
+}
+.sixth-row{
+  margin-top: 30px;
+  height: 80vh;
+}
+.testimonias-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    width: 50vw;
+    border-radius: 1px;
+    background-color: rgb(220, 215, 215);
+    display: flex;
+    flex-direction: row;
+   
+}
+.google{
+    padding-top: 40px;
+    padding-bottom:20PX ;
+}
+.footer{
+    padding: 40px 80px;
+    margin-bottom: 0px;
+    background-color: #002147;
+    height: 40vh;
+    color: white;
+    }
+    .footer-details{
+    padding-top: 30px;
+    color: whitesmoke;
+    }
+    .quicklink-foot{
+    font-size: 15px;
+    }
+    .quicklink-foot1{
+        font-size: 15px;
+        }
+.subfooter{
+font-size: 20px;
+margin: 0px;
+padding: 0px;
+    background-color: #002147;
+   
+    color: white;
+
+}
+.vit-color{
+    padding-left: 150px;
+}
+.bottom-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 80%;
+    gap: 20px;
+    padding-top: 0px;
+    padding-left: 50px;
+}
